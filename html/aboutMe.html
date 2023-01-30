@@ -12,12 +12,19 @@
 <body>
     <a href="/index.html">&#8249; back</a>
     
-    <h1>About Me</h1>
+    <header><h1>About Me</h1></header>
 
     <main>
         <div>
-            <img src="/images/Geisel.jpg" alt="UCSD library" width="300" height="215">
-            <p>Hi, my name is Jingxian Wang. I'm an undergraduate student in <a href="https://ucsd.edu/">UCSD</a>. My major is Computer Science.</p>
+            <figure>
+                <img src="/images/Geisel.jpg" alt="UCSD library" width="300" height="215">
+                <figcaption>The library of UCSD, Geisel</figcaption>
+            </figure>
+            
+            <p>Hi, my name is Jingxian Wang. I'm an undergraduate student in <a href="https://ucsd.edu/">UCSD</a>. <strong>My major is Computer Science.</strong> This is the first line of code I learned to write in computer science.</p>
+            <code>
+                cout << "Hello World";
+            </code>
         </div>
         
         <br><br>
@@ -32,27 +39,44 @@
         <br><br>
 
         <div>
-            <img src="/images/sd beach.jpg" alt="SD beach" width="350" height="200">
-            <img src="/images/sd food.jpg" alt="SD food" width="350" height="200">
-            <img src="/images/play the guitar.jpg" alt="play the guitar" width="150" height="200">
-            <img src="/images/cake.jpg" alt="cake" width="300" height="200">
-            <img src="/images/puzzle.jpg" alt="puzzle" width="300" height="200">
+            <picture>
+                <img src="/images/sd beach.jpg" alt="SD beach" width="350" height="200">
+                <img src="/images/sd food.jpg" alt="SD food" width="350" height="200">
+                <img src="/images/play the guitar.jpg" alt="play the guitar" width="150" height="200">
+                <img src="/images/cake.jpg" alt="cake" width="300" height="200">
+                <img src="/images/puzzle.jpg" alt="puzzle" width="300" height="200">
+            </picture>
+
             <p>I like to experience new things and go to new places. These years I live in San Diego and I enjoy to explore new places and restaurants here. I like listen to music during my free time. Sometime, I'll play the guitar and sing by myself.
                 I also like to cook yummy food. Sometimes I'll making cake for my family. Eating delicious food make me happy. One thing I like most is to do jigsaw puzzle. I finished 3 puzzle with 1000 pieces last quarter. 
             </p>
+
+            <p>Wanna listen a tune?</p>
+            <audio controls>
+                
+                <source src="/music/guitar song.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
         </div>
    
         <br><br>
 
         <div>
-            <img src="/images/dog.jpg" alt="my dog" width="300" height="225">
+            <video width="320" height="240" controls>
+                <source src="/Videos/dog.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <p>By the way, I have a dog. I love her very much! She's pretty cute!</p>
         </div>
         
         <br><br>
 
         <div>
-            <p>Nice to meet you~</p>
+            <pre>
+    Nice                     Nice                    Nice
+to        meet           to        meet          to        meet
+     you                      you                    you
+            </pre>
             <img src="/images/nice to meet you.jpg" alt="myself jump" width="120" height="225">
         </div>
     </main>
